@@ -1,0 +1,33 @@
+
+.imgnav {
+    height: 50px;
+}
+
+.icon-social {
+    color: white;
+}
+
+.icon-social:hover {
+    color: $color3;
+}
+
+.color-text{
+    background-color: $color1;
+}
+
+.color-text-2{
+    background-color: $color2;
+}
+
+.color-text-3{
+    background-color: $color3;
+
+    &:hover{
+        background-color: orange;
+    }
+}
+
+.color-text-4:hover{
+    background-color:$color1;
+    height: auto;
+}

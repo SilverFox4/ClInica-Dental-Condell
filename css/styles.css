@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:wght@900&family=Kaisei+Tokumin:wght@400;500;700&family=Montserrat:wght@400;700&family=Open+Sans:wght@600&display=swap");
+body {
+  background-image: url(../image/udd-frontis-2a-1920x1080.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  background-attachment: fixed;
+  font-family: "Open Sans", sans-serif;
+}
+
+.imgnav {
+  height: 50px;
+}
+
+.icon-social {
+  color: white;
+}
+
+.icon-social:hover {
+  color: blue;
+}
+
+.color-text {
+  background-color: #f4831f;
+}
+
+.color-text-2 {
+  background-color: #04d011;
+}
+
+.color-text-3 {
+  background-color: mediumblue;
+}
+.color-text-3:hover {
+  background-color: orange;
+}
+
+.color-text-4:hover {
+  background-color: #f4831f;
+  height: auto;
+}
+
+/*navbar*/
+.swing-in-top-fwd {
+  animation: swing-in-top-fwd 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+@keyframes swing-in-top-fwd {
+  0% {
+    transform: rotateX(-100deg);
+    transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg);
+    transform-origin: top;
+    opacity: 1;
+  }
+}
+/*objetos*/
+.fade-in-bottom {
+  animation: fade-in-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) 0.2s both;
+}
+@keyframes fade-in-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}/*# sourceMappingURL=styles.css.map */
